@@ -1,0 +1,43 @@
+a {
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.cancel-card-padding .el-card__body {
+    padding: 0;
+}
+
+.margin-top15 {
+    margin-top: 15px;
+}
+
+.margin-right15 {
+    margin-right: 15px;
+}
+
+.margin-bottom15 {
+    margin-bottom: 15px;
+}
+
+.margin-top0 {
+    margin-top: 0px;
+}
+
+.margin-bottom0 {
+    margin-bottom: 0px;
+}
+
+.ptext {
+    color: #8590a6;
+}
+
+.float-right {
+    float: right;
+}
+
+.border-right {
+    border-right: 1px solid #ddd;
+}
