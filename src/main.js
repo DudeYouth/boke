@@ -8,15 +8,23 @@ import App from './App'
 import router from './router'
 import axios from "axios"
 
+document.cookie = "name=ricky&test=415231321";
 axios.defaults.baseURL = 'http://www.ricky.kim/server';
 axios.defaults.headers.common['Content-Type'] = "application/json";
+axios.defaults.withCredentials = true;
+
 axios.interceptors.response.use((response) => {
     return response.data;
 }, function(error) {
     return Promise.reject(error);
 });
+
 Vue.prototype.$axios = axios;
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
+
+// router.beforeEach((to, from, next) => {
+
+// })
 
 Vue.use(ElementUI)
 

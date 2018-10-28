@@ -6,7 +6,7 @@ import ReleaseArticle from '@/components/ReleaseArticle'
 import ReleaseMood from '@/components/ReleaseMood'
 import ContentInfo from '@/components/ContentInfo'
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
     routes: [{
@@ -35,4 +35,4 @@ export default new Router({
             component: ContentInfo,
         }
     ]
-})
+});
